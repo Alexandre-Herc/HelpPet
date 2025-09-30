@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    --font1:"Montserrat", sans-serif;
+    --font2:"Cairo Play", sans-serif;
+    --font3: Arial, Helvetica, sans-serif;
+    --font4: 'Ubuntu', sans-serif;
+}
+
+:root{
+    --cor1:#392F5A;
+    --cor2:#F4E9CD;
+    --cor3:#FBFFF1;
+    --cor4:#6D8A96;
+}
+
+.navbar-brand {
+    padding: 5px;
+    margin-left: 1%;
+    font-family: var(--font2);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: var(--cor1);
+}
+
+.sobre {
+    background-color: var(--cor2);
+    padding: 5% 10%;
+    text-align: center;
+}
+.sobre > h2 {
+    font-family: var(--font3);
+    font-size: 3.2rem;
+    line-height: 2.0;
+}
+
+.aboutus{
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.aboutus > h2 {
+    font-family: var(--font3);
+    font-size: 3.2rem;
+    line-height: 2.0;
+}
+
+.carousel-item h2 {
+    font-family: var(--font4);
+    line-height: 2.0;
+    color: var(--cor4);
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.doubts {
+    background-color: var(--cor2);
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.meio {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+
+    background-color: var(--cor1);
+    color: white;
+    padding: 2% 10%;
+    border-radius: 15px 50px 15px 50px;
+}
+
+.meio > h2 {
+    line-height: 2.0;
+}
+
+.btn:hover {
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
+
+
+#inf {
+    padding: 7% 15%;
+    background-color: var(--cor2);
+    position: relative;
+    z-index: 2;
+}
+
+#inf h3{
+    font-family: var(--font4);
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icones {
+    color: #392f5ae3;
+    margin-bottom: 1rem;
+}
+
+.icones:hover {
+    color:var(--cor1);
+}
+
+.icon {
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    color: var(--cor1);
+}
+
+.icon > i:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.rodape {
+    padding: 2% 5%;
+}
+
+.rodape p {
+    text-align: center;
+}
